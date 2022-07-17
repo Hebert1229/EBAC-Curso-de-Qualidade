@@ -1,0 +1,32 @@
+            #language: pt
+
+            Funcionalidade: Cadastro
+            Como cliente da EBAC-SHOP
+            Quero fazer a conclusão do meu cadastro
+            Para finalizar minha compra
+
+            Contexto:
+            Dado que eu acesse a pagina de checkout da EBAC-SHOP
+
+            Cenário: Autorizar o cadastro somente com todos os campos obrigatorios, marcados com asteriscos
+            Quando eu preencher todos os campos obrigatorios com dados validos
+            Então deve exibir uma mensagem de sucesso: "Cadastro realizado com sucesso, transferindo para pagina de pagamento "
+
+            Cenário: Cadastrar com campos vazios
+            Quando eu tentar finalizar cadastro com qualquer campo onrigatorio vazio
+            Então deve exibir uma mensagem de alerta: "Cadastro dos itens com asterisco, são onrigatorios !"
+
+
+            Esquema do Cenário: Não permitir campo e-mail com formato invalido
+            Quando eu adicionar o <email>
+            Então deve exibir a <mensagem>
+
+            Exemplos:
+            | usuario                   | mensagem                  |
+            | "aekjfhuanef@ebac.com.br" | "Insira um e-mail valido" |
+            | "carlos@agbhc.com.br"     | "Insira um e-mail valido" |
+            | "13487394@lkjh.com.br"    | "Insira um e-mail valido" |
+            | "!@#$#$@xmlyaaml.com.br"  | "Insira um e-mail valido" |
+            | "!@#123@654$%.com.br"     | "Insira um e-mail valido" |
+            | "=-098@aihdi.com.br"      | "Insira um e-mail valido" |
+            | "aksjhdhaus@1423.com.br"  | "Insira um e-mail valido" |
