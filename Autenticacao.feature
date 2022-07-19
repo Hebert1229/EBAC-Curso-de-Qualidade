@@ -8,20 +8,20 @@
             Contexto:
             Dado que eu acesse a pagina de login da EBAC-SHOP
 
-            Cenário: Ao inserir um dos campos invalidos deve exibir mensagem de alerta "Usuário ou senha inválidos"
+            Cenário: Ao inserir um dos campos invalidos deve exibir mensagem de alerta "Usuario não cadastrado na nossa base de dados"
             Quando eu adicionar o usario "saudhasu@ebac.com.br"
             E a senha "teste@123"
-            Então deve exibir uma mensagem de alerta: "Usuario ou senha incorreto"
+            Então deve exibir uma mensagem de alerta: "Usuario não cadastrado na nossa base de dados"
 
-            Cenário: Ao inserir um dos campos invalidos deve exibir mensagem de alerta "Usuário ou senha inválidos"
-            Quando eu adicionar o usario "joanau@ebac.com.br"
+            Cenário: Ao inserir uma senha invalida deve exibir mensagem de alerta "Senha inválida"
+            Quando eu adicionar o usario "joana@ebac.com.br"
             E a senha "teste@654"
-            Então deve exibir uma mensagem de alerta: "Usuario ou senha incorreto"
+            Então deve exibir uma mensagem de alerta: "Senha invalida"
             
 
             Esquema do Cenário: Ao inserir dados validos deve ser direcionado para a tela de checkout
-            Quando eu adicionar o <usuario>
-            E a <senha>
+            Quando eu adicionar o <usuario> valido
+            E a <senha> valida
             Então deve exibir a <mensagem>
             E direcionar para pagina de checkout
 

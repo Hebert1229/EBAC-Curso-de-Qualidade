@@ -12,21 +12,21 @@
             Quando eu preencher todos os campos obrigatorios com dados validos
             Então deve exibir uma mensagem de sucesso: "Cadastro realizado com sucesso, transferindo para pagina de pagamento "
 
-            Cenário: Cadastrar com campos vazios
-            Quando eu tentar finalizar cadastro com qualquer campo onrigatorio vazio
-            Então deve exibir uma mensagem de alerta: "Cadastro dos itens com asterisco, são onrigatorios !"
+            Cenário: Tenta cadastrar com campos vazios
+            Quando eu tentar finalizar cadastro com qualquer campo obrigatorio vazio
+            Então deve exibir uma mensagem de alerta: "Cadastro dos itens com asterisco, são obrigatorios !"
 
 
             Esquema do Cenário: Não permitir campo e-mail com formato invalido
-            Quando eu adicionar o <email>
+            Quando eu adicionar o <email> com formato invalido
             Então deve exibir a <mensagem>
 
             Exemplos:
             | usuario                   | mensagem                  |
-            | "aekjfhuanef@ebac.com.br" | "Insira um e-mail valido" |
-            | "carlos@agbhc.com.br"     | "Insira um e-mail valido" |
-            | "13487394@lkjh.com.br"    | "Insira um e-mail valido" |
-            | "!@#$#$@xmlyaaml.com.br"  | "Insira um e-mail valido" |
+            | "aekjfhuanef@zh12.cy8.15" | "Insira um e-mail valido" |
+            | "carlos@agbhc.ol.bdsfr"   | "Insira um e-mail valido" |
+            | "1348739435654cg"         | "Insira um e-mail valido" |
+            | "!@#$#$@%%&rhrhr.op"      | "Insira um e-mail valido" |
             | "!@#123@654$%.com.br"     | "Insira um e-mail valido" |
             | "=-098@aihdi.com.br"      | "Insira um e-mail valido" |
             | "aksjhdhaus@1423.com.br"  | "Insira um e-mail valido" |

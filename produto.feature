@@ -13,7 +13,7 @@
             Então deve exibir a mensagem de Alerta "Seleção de cor, tamanho e quantidade são obrigatórios"
 
             Cenário: Ao clicar no botão "limpar" deve voltar ao estado original
-            Quando eu clicar no botão "limpar" 
+            Quando eu clicar no botão "limpar"
             Então deve remover todas as configurações de compra
 
             Esquema do Cenário: Permitir apenas 10 produtos por venda
@@ -24,7 +24,9 @@
 
             Exemplos:
             | produto  | quantidade | mensagem                        |
-            | "camisa" | "18"       | "Quantidade acima do permitido" |
+            | "camisa" | "98"       | "Quantidade acima do permitido" |
             | "calça"  | "11"       | "Quantidade acima do permitido" |
-            | "short"  | "23"       | "Quantidade acima do permitido" |
-            | "meia"   | "15"       | "Quantidade acima do permitido" |
+            | "short"  | "626556"   | "Quantidade acima do permitido" |
+            | "meia"   | "15000000" | "Quantidade acima do permitido" |
+            | "bone"   | "88000000" | "Quantidade acima do permitido" |
+            | "sunga"  | "15698468" | "Quantidade acima do permitido" |
