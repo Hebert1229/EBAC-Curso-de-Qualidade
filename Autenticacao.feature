@@ -29,8 +29,4 @@
             | usuario              | senha       | mensagem                               |
             | "carlos@ebac.com.br" | "teste@123" | "Transferindo para pagina de Checkout" |
             | "joana@ebac.com.br"  | "teste@123" | "Transferindo para pagina de Checkout" |
-            | "daniel@ebac.com.br" | "teste@123" | "Transferindo para pagina de Checkout" |
-            | "ana@ebac.com.br"    | "teste@123" | "Transferindo para pagina de Checkout" |
-            | "dayane@ebac.com.br" | "teste@123" | "Transferindo para pagina de Checkout" |
-            | "julia@ebac.com.br"  | "teste@123" | "Transferindo para pagina de Checkout" |
-            | "abilio@ebac.com.br" | "teste@123" | "Transferindo para pagina de Checkout" |
+           
