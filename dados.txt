@@ -1,1 +1,17 @@
 alteração
+
+Dados do aluno
+
+
+
+-Primeiro Nome: Hebert
+
+-Profissão: Analista de Segurança da Informação
+
+-Cidade: Anápolis-GO
+
+-O que faz nas horas vaga: filmes e CTF 
+
+-Feedback sobre o curso Qualidade de Software: É um curso excelente, esta me dando uma base otima pra entender os testes de software. 
+
+-Feedback sobre a plataforma de estudo da EBAC: Muito didatica e interativa, facil manuseio, bem intuitiva !
