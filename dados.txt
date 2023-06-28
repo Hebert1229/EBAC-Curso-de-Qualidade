@@ -10,7 +10,7 @@ Dados do aluno
 
 -Cidade: Anápolis-GO
 
--O que faz nas horas vaga: Filmes e CTF 
+-O que faz nas horas vaga: Filmes e CTF. 
 
 -Feedback sobre o curso Qualidade de Software: É um curso excelente, esta me dando uma base otima pra entender os testes de software. 
 
